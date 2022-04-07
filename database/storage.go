@@ -11,9 +11,6 @@ import(
 
 )
 
-
-
-
 func CreateUser(w http.ResponseWriter, r *http.Request){
 	w.Header().Add("content-type", "application/json")
 	var user m.UserData
